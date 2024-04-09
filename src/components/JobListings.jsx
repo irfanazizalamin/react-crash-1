@@ -7,6 +7,7 @@ const JobListings = ({ isHome = false }) => {
   const [isLoading, setLoading] = useState(true);
 
   useEffect(() => {
+    // TODO: why is this must be create as a function then called below?
     const fetchJobs = async () => {
       const queryParams = isHome ? "_limit=3" : "";
 
