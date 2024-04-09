@@ -1,18 +1,23 @@
 // It's the main component
 
-const App = () => {
-  // we can also create styles in JSX in object format
-  const styles = {
-    color: "red",
-    backgroundColor: "black",
-  };
+import Hero from "./components/Hero";
+import HomeCards from "./components/HomeCards";
+import JobListings from "./components/JobListings";
+import Navbar from "./components/Navbar";
+import ViewAllJobs from "./components/ViewAllJobs";
 
+
+const App = () => {
   // we can only return a single component, so if there's more than one, add () "parenthesis" and wrap in single root
   // we can use <></> to be a wrapper
   return (
-    <h1 className="text-3xl font-bold underline" style={styles}>
-      Hello world!
-    </h1>
+    <>
+      <Navbar />
+      <Hero />
+      <HomeCards />
+      <JobListings />
+      <ViewAllJobs />
+    </>
   );
 };
 
