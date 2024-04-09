@@ -83,6 +83,20 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "8889",
+      "title": "Freelance SE",
+      "type": "",
+      "description": "just freelance",
+      "location": "Remote",
+      "salary": "$125K - 150K",
+      "company": {
+        "name": "Self Reward",
+        "description": "self service",
+        "contactEmail": "hrd@selfreward.com",
+        "contactPhone": "111111111"
+      }
     }
   ]
 }
